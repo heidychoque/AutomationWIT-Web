@@ -71,9 +71,7 @@ task runFeatures(type: Test) {
     reports.html.enabled = false
 
     ignoreFailures = true
-    doLast {
-        generateReport('build/cucumber/cucumber.json', 'build/cucumber/reports')
-    }
+    
 }
 
 
