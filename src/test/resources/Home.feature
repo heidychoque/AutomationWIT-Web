@@ -1,12 +1,12 @@
 Feature: Home page design
 
   Background: Preconditions
-    Given Load home page for footer
+    Given Load home page
     And window is maximized
 
     Scenario: Verify existence of carousel and its components
       When Verify existence of carousel on home page
-      And Verify existence of Contact Us button on carousel on home
+
 
     Scenario:Verify Metrics section design
       When Verify existence of label Metrics

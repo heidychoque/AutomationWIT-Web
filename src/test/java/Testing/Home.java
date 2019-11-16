@@ -86,7 +86,7 @@ public class Home extends LoadPage {
         return Events.isVisibleWebElement(buttonCarousel);
     }
     public ContactUs clickbuttonCarousel(){
-        Events.click(buttonAppbarActivities);
+        Events.click(buttonCarousel);
         return new ContactUs();
     }
 
